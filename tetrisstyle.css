@@ -1,0 +1,275 @@
+.center{
+  margin-left: kolj;0%;
+}
+
+.controlCircle{
+  border: 2px solid white;
+  border-radius: 200px;
+  margin-left: 30%;
+  width: 200px;
+  background-color: darkgreen;
+}
+
+i {
+  margin: 0 auto;
+  color: white;
+  font-size: 75px;
+  margin-left: 30%;
+  
+}
+.fa-arrow-left{
+  margin-left: 5px;
+
+
+}
+
+.fa-arrow-right{
+  margin-left: 45px;
+
+
+}
+
+.fa-fa-refresh{
+  color: white;
+  font-size: 200px;
+  z-index: 50000;
+}
+
+
+#start-button{
+  float: center;
+  text-align: center;
+  margin-left: 10%;
+  border-radius: 5px;
+  background-color: rgb(223, 223, 223);
+  background-color: white;
+  font-size: 18px;
+  border: 3px solid black;
+}
+#start-button:hover{
+  float: center;
+  text-align: center;
+  margin-left: 10%;
+  background-color:  green;
+  font-size: 18px;
+  border: 5px solid black;
+  color: white;
+  cursor: pointer;
+}
+
+#resetBtn{
+  float: center;
+  text-align: center;
+  margin-left: 10%;
+  border-radius: 5px;
+
+  background-color: white;
+  font-size: 18px;
+  border: 3px solid black;
+}
+#resetBtn:hover{
+  float: center;
+  text-align: center;
+  margin-left: 10%;
+  background-color:  green;
+  border: 5px solid white;
+
+  border: 5px solid black;
+}
+
+
+
+.container {
+  display: flex;
+}
+body {
+  background:black;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(145, 211, 149);
+  
+
+  border: 5px solid white;
+
+
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+
+  
+}
+
+.tetromino {
+  background-color: blue;
+  border-color: solid white;
+}
+
+.mini-grid {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  border: 1px solid black;
+  border: 2px solid white;
+  margin-left: 10%;
+
+  z-index: 10000;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.scoreboard{
+  
+  color: white;
+  width: 100px;
+  margin-left: 0px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 15px;
+
+}
+
+.line, .level, .highScore, .score{
+  background-color: black;
+  border: 1 px solid black;
+  color: white;
+
+  border: 1px solid gold;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.right2 {
+    position: absolute;
+    top:0;
+   
+    bottom:0;
+
+    width: 130px;
+    font-size: 10px;
+    margin-left: 0%;
+    padding: 5px;
+    background-color: rgb(8, 77, 42);
+    color: white;
+    z-index: -51000
+    border: 5px solid black;
+    opacity: 90%;
+  }
+
+  .left {
+    position: absolute;
+    top:0;
+   
+    bottom:0;
+
+    width: 130px;
+    font-size: 10px;
+    margin-left: 80%;
+    padding: 5px;
+    background-color: rgb(8, 77, 42);
+    color: white;
+    z-index: -51000
+    border: 5px solid black;
+    opacity: 90%;
+  }
+
+
+a {
+  color: black;
+  margin-left: 170px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 560px){
+  .right2 {
+    position: absolute;
+    top:0;
+   
+    bottom:0;
+
+    width: 130px;
+    font-size: 10px;
+    margin-left: 0%;
+    padding: 5px;
+    background-color: rgb(8, 77, 42);
+    color: white;
+    z-index: -51000
+    border: 5px solid black;
+    opacity: 90%;
+  }
+
+  .left {
+    position: absolute;
+    top:0;
+   
+    bottom:0;
+
+    width: 130px;
+    font-size: 10px;
+    margin-left: 70%;
+    padding: 5px;
+    background-color: rgb(8, 77, 42);
+    color: white;
+    z-index: -51000
+    border: 5px solid black;
+    opacity: 90%;
+  }
+  .grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(145, 211, 149);
+    border: 1px solid black;
+    margin-top: 10px;
+    border: 2px solid white;
+    margin-left: 29%;
+  
+  }
+  
+  .grid div {
+    height: 20px;
+    width: 20px;
+  
+    
+  }
+  
+  .tetromino {
+    background-color: blue;
+    
+  }
+  
+  .mini-grid {
+    
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    border: 1px solid black;
+    border: 2px solid white;
+    margin-left: 10%;
+
+    z-index: 10000;
+  }
+  
+  .mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
+}
