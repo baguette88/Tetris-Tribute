@@ -2,13 +2,13 @@
   margin-left: 20%;
 }
 
-.controlCircle{
+/* .controlCircle{
   border: 2px solid white;
   border-radius: 200px;
   margin-left: 30%;
   width: 200px;
   background-color: darkgreen;
-}
+} */
 
 i {
   margin: 0 auto;
@@ -17,7 +17,7 @@ i {
   margin-left: 30%;
   
 }
-.fa-arrow-left{
+/* .fa-arrow-left{
   margin-left: 5px;
 
 
@@ -27,7 +27,7 @@ i {
   margin-left: 45px;
 
 
-}
+} */
 
 .fa-fa-refresh{
   color: white;
@@ -93,7 +93,7 @@ body {
   flex-wrap: wrap;
   background: rgb(145, 211, 149);
   
-
+margin-left: 80px;
   border: 5px solid white;
 
 
@@ -177,14 +177,14 @@ h1 {
    
     bottom:0;
 
-    width: 130px;
+    width: 120px;
     font-size: 10px;
-    margin-left: 80%;
+    margin-left: 0%;
     padding: 5px;
     background-color: rgb(8, 77, 42);
     color: white;
     z-index: -51000
-    border: 5px solid black;
+
     opacity: 90%;
   }
 
